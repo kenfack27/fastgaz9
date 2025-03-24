@@ -8,6 +8,7 @@ const config: CapacitorConfig = {
     url: 'https://kapexpert.cloud:30004/', // Remplace par l'URL de ton frontend hébergé
     cleartext: true // Autorise HTTP (utile en dev, sinon mettre `false` en prod)
   },
+  
 };
 
 export default config;
