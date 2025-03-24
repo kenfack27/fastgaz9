@@ -238,9 +238,6 @@
 		504EC3141FED79650016851F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 4G8535UV2X;
-                PROVISIONING_PROFILE_SPECIFIER =4de2778c-d8e5-40d9-aa24-da5eee2eb278;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -298,9 +295,6 @@
 		504EC3151FED79650016851F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 4G8535UV2X;
-                PROVISIONING_PROFILE_SPECIFIER = 4de2778c-d8e5-40d9-aa24-da5eee2eb278;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -352,6 +346,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC68EB0AF532CFC21C3344DD /* Pods-App.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+                DEVELOPMENT_TEAM = 4G8535UV2X;
+                PROVISIONING_PROFILE_SPECIFIER =4de2778c-d8e5-40d9-aa24-da5eee2eb278;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -372,6 +369,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+                DEVELOPMENT_TEAM = 4G8535UV2X;
+                PROVISIONING_PROFILE_SPECIFIER =4de2778c-d8e5-40d9-aa24-da5eee2eb278;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
