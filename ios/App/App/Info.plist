@@ -8,6 +8,11 @@
     <key>NSLocationAlwaysUsageDescription</key>
     <string>Cette application a besoin d'un accès permanent à votre position pour améliorer l'expérience utilisateur.</string>
    
+   <key>NSCameraUsageDescription</key>
+   <string>Nous avons besoin de votre caméra pour scanner des codes QR</string>
+   <key>NSMicrophoneUsageDescription</key>
+   <string>Nous avons besoin de votre microphone pour certaines fonctionnalités audio.</string>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
