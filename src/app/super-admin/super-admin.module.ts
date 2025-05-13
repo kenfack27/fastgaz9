@@ -20,6 +20,7 @@ import { CommissionSystemComponent } from './commission-system/commission-system
 import { MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { ConfigurationDetailsComponent } from './configuation/configuration-details/configuration-details.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
 
 @NgModule({
@@ -48,6 +49,8 @@ import { ConfigurationDetailsComponent } from './configuation/configuration-deta
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    MatDatepickerModule,
+
 
   ]
 })
